@@ -36,6 +36,7 @@ def main():
 
     # 对Coupon_id数据进行转换：{null -> 0; 非空 -> 1}
     # 对Discount_rate数据进行转换：{转换成float，范围0到1；例如 200:20 -> 0.9}
+    # 新增结果列
 
 
 
