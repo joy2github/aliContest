@@ -34,6 +34,9 @@ def main():
     data_offline_train.insert(3,'coupon_id_new',coupon_id_new)
     print data_offline_train.head()
 
+    # 对Coupon_id数据进行转换：{null -> 0; 非空 -> 1}
+    # 对Discount_rate数据进行转换：{转换成float，范围0到1；例如 200:20 -> 0.9}
+
 
 
 
